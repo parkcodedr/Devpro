@@ -2,9 +2,10 @@
 
 <head>
     <title>DevPro</title>
+    <meta name="description" content="Developers project management and profiling system">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
 </head>
-
 <body class="bg-gray-100">
     <nav class="bg-white shadow fixed  z-10 mx-auto inset-x-0 top-0 flex justify-between items-center p-1">
 
@@ -12,7 +13,6 @@
 
             DevPro
         </a>
-
         <button id="mobileMenuButton" class="p-3 focus:outline-none md:hidden" title="Open side menu">
             <!-- SVG For "x" button -->
             <svg id="mobileMenuButtonClose" class="w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
